@@ -23,7 +23,7 @@ The python scripts will take care of generating all of the important json files 
 
 ## As a Fabric Mod
 
-You can convert this data pack into a proper Fabric mod by simply including all of the contents from `data/` into the `resources/` folder of your mod project. Take a look at https://fabricmc.net/develop/ if you're unsure where to start!
+You can convert this data pack into a proper Fabric mod by simply including the `data/` folder into the `resources/` folder of your mod project. Take a look at https://fabricmc.net/develop/ if you're unsure where to start!
 
 If you do, please add this entry into your `fabric.mod.json` file to display Any Dimension Mod 2 as
 a parent in [ModMenu](https://github.com/TerraformersMC/ModMenu), as well as add it as a dependency.
