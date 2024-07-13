@@ -1,0 +1,476 @@
+{
+  "feature": {
+    "type": "minecraft:ore",
+    "config": {
+      "size": 20,
+      "discard_chance_on_air_exposure": 0,
+      "targets": [
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:flawless_budding_quartz"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:flawed_budding_quartz"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:chipped_budding_quartz"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:damaged_budding_quartz"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:matrix_frame"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:quartz_block"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:cut_quartz_block"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:smooth_quartz_block"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:quartz_bricks"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:quartz_pillar"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:chiseled_quartz_block"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:quartz_glass"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:quartz_vibrant_glass"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:fluix_block"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:sky_stone_block"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:smooth_sky_stone_block"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:sky_stone_brick"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:sky_stone_small_brick"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:sky_stone_tank"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:mysterious_cube"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:not_so_mysterious_cube"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:inscriber"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:charger"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:spatial_pylon"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:spatial_io_port"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:controller"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:drive"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:chest"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:interface"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:cell_workbench"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:io_port"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:condenser"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:energy_acceptor"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:vibration_chamber"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:growth_accelerator"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:energy_cell"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:dense_energy_cell"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:creative_energy_cell"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:crafting_unit"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:crafting_accelerator"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:1k_crafting_storage"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:4k_crafting_storage"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:16k_crafting_storage"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:64k_crafting_storage"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:256k_crafting_storage"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:crafting_monitor"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:pattern_provider"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:molecular_assembler"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ae2:spatial_anchor"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        }
+      ]
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 2
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": 0
+        },
+        "max_inclusive": {
+          "below_top": 0
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
