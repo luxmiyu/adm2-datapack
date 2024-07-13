@@ -7,7 +7,7 @@
 
 ## Developer Guide
 
-This repo uses blocks from [Applied Energistics 2](https://github.com/AppliedEnergistics/Applied-Energistics-2) as an example. The data pack would be called `Any Dimension Mod 2 Expansion - Applied Energistics 2` in this case.
+This repo uses blocks from [Applied Energistics 2](https://github.com/AppliedEnergistics/Applied-Energistics-2) as an example data pack expansion for [Any Dimension Mod 2](https://github.com/luxmiyu/adm2). The data pack would be called `Any Dimension Mod 2 Expansion - Applied Energistics 2` in this case.
 
 Follow these instructions you'd like to create your own data pack expansion for Any Dimension Mod 2.
 
