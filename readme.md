@@ -28,7 +28,7 @@ You can convert this data pack into a proper Fabric mod by simply including all 
 If you do, please add this entry into your `fabric.mod.json` file to display Any Dimension Mod 2 as
 a parent in [ModMenu](https://github.com/TerraformersMC/ModMenu), as well as add it as a dependency.
 
-```json
+```js
 "depends": {
   // ...
   "adm2": "*"
