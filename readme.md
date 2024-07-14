@@ -1,18 +1,21 @@
 # ![](pack.png) Any Dimension Mod 2 Data Pack Expansion
 
-![Preview Screenshot](preview.jpg)
+![Preview Screenshot](images/preview.jpg)
 
 - `Mod:` Applied Energistics 2
 - `Expansion Author:` luxmiyu
 
 ## Developer Guide
 
-This repo uses blocks from [Applied Energistics 2](https://github.com/AppliedEnergistics/Applied-Energistics-2) as an example data pack expansion for [Any Dimension Mod 2](https://github.com/luxmiyu/adm2). The data pack would be called `Any Dimension Mod 2 Expansion - Applied Energistics 2` in this case.
+This repo uses blocks from [Applied Energistics 2](https://github.com/AppliedEnergistics/Applied-Energistics-2)
+as an example data pack expansion for [Any Dimension Mod 2](https://github.com/luxmiyu/adm2).
+The data pack would be called `Any Dimension Mod 2 Expansion - Applied Energistics 2` in this case.
 
 Follow these instructions you'd like to create your own data pack expansion for Any Dimension Mod 2.
 
 - Open `pack.mcmeta` and edit the fields.
-  - Make sure to choose a compatible `"pack_format"` for the Minecraft version you're targetting. See [Pack Format](https://minecraft.wiki/w/Pack_format) for more information.
+  - Make sure to choose a compatible `"pack_format"` for the Minecraft version you're targetting.
+    See [Pack Format](https://minecraft.wiki/w/Pack_format) for more information.
   - Give it an appropriate `"description"`.
 - Open `python/data.json` and edit the fields.
   -  `mod_id`: The mod you intend to create dimensions for.
@@ -21,9 +24,22 @@ Follow these instructions you'd like to create your own data pack expansion for 
 
 The python scripts will take care of generating all of the important json files for the data pack.
 
+## Debug Wand
+
+Any Dimension Mod 2 includes many wands to use in Creative Mode for demonstration purposes,
+you can use the Debug Wand to help you find suitable blocks!
+
+![Any Dimensional Debug Wand](images/debug_wand.png)
+
+When used on a block, the wand will identify the mod that block belongs to, and then print out
+to the console the list of "full cube" blocks from that mod. Use while sneaking to print out
+the entire list of blocks from that mod.
+
 ## As a Fabric Mod
 
-You can convert this data pack into a proper Fabric mod by simply including the `data/` folder into the `resources/` folder of your mod project. Take a look at https://fabricmc.net/develop/ if you're unsure where to start!
+You can convert this data pack into a proper Fabric mod by simply including the `data/` folder into
+the `resources/` folder of your mod project. Take a look at https://fabricmc.net/develop/
+if you're unsure where to start!
 
 If you do, please add this entry into your `fabric.mod.json` file to display Any Dimension Mod 2 as
 a parent in [ModMenu](https://github.com/TerraformersMC/ModMenu), as well as add it as a dependency.
