@@ -2,14 +2,14 @@
 
 ![Preview Screenshot](images/preview.jpg)
 
-- `Mod:` Applied Energistics 2
+- `Mod:` Luxore
 - `Expansion Author:` luxmiyu
 
 ## Developer Guide
 
-This repo uses blocks from [Applied Energistics 2](https://github.com/AppliedEnergistics/Applied-Energistics-2)
+This repo uses blocks from [Luxore](https://github.com/luxmiyu/luxore)
 as an example data pack expansion for [Any Dimension Mod 2](https://github.com/luxmiyu/adm2).
-The data pack would be called `Any Dimension Mod 2 Expansion - Applied Energistics 2` in this case.
+The data pack would be called `Any Dimension Mod 2 - Luxore` in this case.
 
 Follow these instructions you'd like to create your own data pack expansion for Any Dimension Mod 2.
 
@@ -35,13 +35,12 @@ When used on a block, the wand will identify the mod that block belongs to, and 
 to the console the list of "full cube" blocks from that mod. Use while sneaking to print out
 the entire list of blocks from that mod.
 
-## As a Fabric Mod
+## As a Mod (for any Mod Loader)
 
-You can convert this data pack into a proper Fabric mod by simply including the `data/` folder into
-the `resources/` folder of your mod project. Take a look at https://fabricmc.net/develop/
-if you're unsure where to start!
+You can convert this data pack into a proper mod by simply including the `data/` folder into
+the `resources/` folder of your mod project. This requires some minimum modding knowledge, check your mod loader's instructions on how to get started!
 
-If you do, please add this entry into your `fabric.mod.json` file to display Any Dimension Mod 2 as
+If you use Fabric, please add this entry into your `fabric.mod.json` file to display Any Dimension Mod 2 as
 a parent in [ModMenu](https://github.com/TerraformersMC/ModMenu), as well as add it as a dependency.
 
 ```js
@@ -60,5 +59,5 @@ a parent in [ModMenu](https://github.com/TerraformersMC/ModMenu), as well as add
 }
 ```
 
-You can view [Any Dimension Mod 2 Expansion - Applied Energistics 2](https://github.com/luxmiyu/adm2-ae2)
+You can view [Any Dimension Mod 2 - Luxore](https://github.com/luxmiyu/adm2-luxore)
 as an example of how it could be done!

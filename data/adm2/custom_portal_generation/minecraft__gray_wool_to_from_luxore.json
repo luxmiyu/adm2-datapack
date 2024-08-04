@@ -1,0 +1,23 @@
+{
+  "schema_version": "imm_ptl:v1",
+  "from": [
+    "adm2:luxore__luxore_glass",
+    "adm2:luxore__luxore_block",
+    "adm2:luxore__luxore_sand",
+    "adm2:luxore__luxore_lamp",
+    "adm2:luxore__luxore_stone",
+    "adm2:luxore__luxore_ore"
+  ],
+  "to": "adm2:minecraft__gray_wool",
+  "form": {
+    "type": "imm_ptl:classical",
+    "from_frame_block": "minecraft:gray_wool",
+    "area_block": "minecraft:air",
+    "to_frame_block": "minecraft:gray_wool",
+    "generate_frame_if_not_found": true
+  },
+  "trigger": {
+    "type": "imm_ptl:use_item",
+    "item": "adm2:any_dimensional_portal_wand"
+  }
+}
