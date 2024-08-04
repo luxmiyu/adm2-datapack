@@ -1,4 +1,4 @@
-# ![](pack.png) Any Dimension Mod 2 Data Pack Expansion
+# Any Dimension Mod 2 Data Pack Expansion
 
 ![Preview Screenshot](images/preview.jpg)
 
