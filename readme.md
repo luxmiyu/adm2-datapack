@@ -20,7 +20,7 @@ Follow these instructions you'd like to create your own data pack expansion for 
 - Open `python/data.json` and edit the fields.
   -  `mod_id`: The mod you intend to create dimensions for.
   -  `block_ids`: The blocks you want to create dimensions for, without their mod id.
-- Run `python/start.bat`. You must have Python installed on your machine.
+- Run `start.bat`. You must have Python installed on your machine and added to PATH.
 
 The python scripts will take care of generating all of the important json files for the data pack.
 
